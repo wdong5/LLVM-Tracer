@@ -172,7 +172,7 @@ Example program: triad
 
         ```
         export TRACER_HOME=/workspace/LLVM-Tracer
-        ${TRACER_HOME}/bin/get-labeled-stmts triad.c -- -I${LLVM_HOME}/lib/clang/6.0.0/include
+        ${TRACER_HOME}/bin/get-labeled-stmts triad.c -- -I${LLVM_HOME}/clang/6.0.0/include
         ```
 
      c. Generate LLVM IR:
