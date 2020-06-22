@@ -51,7 +51,7 @@ Example program: triad
 
         ```
         opt -S -load=${TRACER_HOME}/lib/full_trace.so -fulltrace -labelmapwriter -trace-all-callees triad.llvm -o triad-opt.llvm
-        llvm-link -o full.llvm cg-opt.llvm ${TRACER_HOME}/lib/trace_logger.llvm 
+        llvm-link -o full.llvm triad-opt.llvm ${TRACER_HOME}/lib/trace_logger.llvm 
         ```
 
         The `-trace-all-callees` flag is optional and defaults to false.
