@@ -15,6 +15,7 @@ Example program: triad
         interested in, set the enviroment variable WORKLOAD to be the top-level function name:
 
         ```
+        export LLVM_HOME=/usr/local/lib
         export WORKLOAD=cg
         ```
 
